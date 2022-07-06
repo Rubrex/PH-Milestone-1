@@ -61,7 +61,8 @@ body {
 /* =================================Donate Today================================  */
 
 .donate_today {
-  width: 100%;
+  width: 90%;
+  margin: 0 auto;
   height: 100%;
   display: flex;
   flex-direction: column;
@@ -142,8 +143,10 @@ body {
 /* =================================Donation Plan================================  */
 
 .donation_plan {
+  width: 90%;
+  margin: 0 auto;
+  margin-top: 90px;
   margin-bottom: 80px;
-  margin-top: 20px;
 }
 
 .cards_container {
@@ -188,13 +191,34 @@ body {
 #food {
   background-color: #a3e4be;
 }
+/* =================================Get Updates================================  */
 .get_updates {
+  width: 90%;
+  margin: 0 auto;
+  margin-top: 90px;
+  margin-bottom: 80px;
+  background-color: rgb(236, 236, 236);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 .subscribe {
+  width: 700px;
+  height: 250px;
+  background-color: rgb(255, 175, 208);
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .subscrive_input_container {
 }
 
 /* =================================Footer================================  */
+footer {
+  width: 90%;
+  margin: 0 auto;
+  margin-top: 90px;
+  margin-bottom: 80px;
+}
