@@ -219,6 +219,28 @@ p {
   background-color: #a3e4be;
 }
 
+/* =================================How to Contributions================================  */
+.how_to_contribute {
+  width: 80%;
+  margin: 0 auto;
+  margin-top: 40px;
+  display: flex;
+  padding: 60px 0;
+}
+
+.left_hw_contribute {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.btn {
+}
+
+.right_hw_contribute img {
+  margin-left: 40px;
+  width: 350px;
+}
 /* =================================Contributions================================  */
 #blur_bg {
   background: rgb(218, 218, 218);
