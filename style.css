@@ -139,6 +139,7 @@ body {
 .cards_container {
   display: flex;
   justify-content: center;
+  gap: 30px;
 }
 
 .card {
@@ -155,19 +156,28 @@ body {
   width: 50px;
   height: 50px;
   margin-bottom: 15px;
+  margin-top: -10px;
 }
 .card_description {
 }
 .card_description > h1 {
   font-size: 20px;
   margin-bottom: 10px;
-  color: rgb(22, 22, 22);
+  color: rgb(34, 34, 34);
 }
 .card_description > p {
   font-size: 13px;
-  color: rgb(136, 136, 136);
+  color: rgb(104, 104, 104);
 }
-
+#blood {
+  background-color: #ffc6c6;
+}
+#education {
+  background-color: #afaeff;
+}
+#food {
+  background-color: #a3e4be;
+}
 .get_updates {
 }
 
