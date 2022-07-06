@@ -260,17 +260,32 @@ p {
 }
 .left_descriptions p {
   color: rgb(236, 236, 236);
-  padding-bottom: 10px;
-}
-
-.btn {
+  padding-bottom: 20px;
 }
 
 .right_icons {
   display: flex;
+  justify-content: space-around;
+  align-items: center;
 }
 
 .contribute_icon {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  margin: 0 25px;
+}
+.contribute_icon img {
+  width: 80px;
+  height: 80px;
+  filter: invert(100);
+}
+.contribute_icon h1 {
+  color: rgb(243, 243, 243);
+}
+.contribute_icon h3 {
+  color: rgb(192, 192, 192);
 }
 
 /* =================================Get Updates================================  */
