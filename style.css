@@ -15,7 +15,8 @@ p {
   font-size: 16px;
   font-size: 300;
 }
-/* =================================Heading================================  */
+
+/* =================================Hero Section================================  */
 
 .hero_container {
   width: 100%;
@@ -153,20 +154,22 @@ p {
   text-align: center;
   border: none;
   border-bottom: 2px solid rgb(66, 66, 66);
-  color: rgb(66, 66, 66);
+  color: rgb(112, 112, 112);
   outline: none;
   font-size: 20px;
   font-weight: 700;
-  color: #383838;
 }
 .custom_donate input:focus {
   border: none;
   border-bottom: 2px solid rgb(250, 79, 79);
   color: #ff5252;
+  background: rgba(83, 83, 83, 0.096);
+  border-radius: 5px;
 }
 .small_btn {
   width: 180px;
 }
+
 /* =================================Donation Plan================================  */
 
 .donation_plan {
@@ -219,7 +222,8 @@ p {
   background-color: #a3e4be;
 }
 
-/* =================================How to Contributions================================  */
+/* =================================How to Contribute================================  */
+
 .how_to_contribute {
   width: 80%;
   margin: 0 auto;
@@ -234,14 +238,13 @@ p {
   align-items: flex-start;
 }
 
-.btn {
-}
-
 .right_hw_contribute img {
   margin-left: 40px;
   width: 350px;
 }
+
 /* =================================Contributions================================  */
+
 #blur_bg {
   background: rgb(218, 218, 218);
   background: linear-gradient(
@@ -311,6 +314,7 @@ p {
 }
 
 /* =================================Get Updates================================  */
+
 .get_updates {
   width: 100%;
   margin-top: 90px;
@@ -354,6 +358,7 @@ p {
 }
 
 /* =================================Footer================================  */
+
 footer {
   width: 100%;
   margin-top: 90px;
