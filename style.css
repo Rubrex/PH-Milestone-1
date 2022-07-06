@@ -34,7 +34,7 @@ p {
   bottom: 0;
   right: 0;
   background: rgb(218, 218, 218);
-  background: linear-gradient(to top, rgba(0, 0, 0, 0.8), transparent);
+  background: linear-gradient(to top, rgba(14, 6, 0, 0.8), transparent);
 }
 .background_effect {
   width: 100%;
