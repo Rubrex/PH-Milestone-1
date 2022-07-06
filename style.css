@@ -6,6 +6,8 @@
 body {
   font-family: Rubik, sans-serif;
 }
+/* =================================Heading================================  */
+
 .heading_container {
   width: 100%;
   height: 100vh;
@@ -55,7 +57,9 @@ body {
   transition: 0.3s;
 }
 
-.donate_today_container {
+/* =================================Donate Today================================  */
+
+.donate_today {
   width: 100%;
   height: 100%;
   display: flex;
@@ -132,6 +136,7 @@ body {
 .small_btn {
   width: 180px;
 }
+/* =================================Donation Plan================================  */
 
 .donation_plan {
 }
@@ -186,3 +191,5 @@ body {
 
 .subscrive_input_container {
 }
+
+/* =================================Footer================================  */
