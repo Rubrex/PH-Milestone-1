@@ -76,7 +76,10 @@ p {
   background-color: #ec1e1e;
   transition: 0.3s;
 }
-
+#dailystar {
+  color: wheat;
+  text-decoration: none;
+}
 /* =================================Donate Today================================  */
 
 .donate_today {
