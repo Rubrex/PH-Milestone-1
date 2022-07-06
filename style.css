@@ -17,6 +17,15 @@ body {
   margin-bottom: 80px;
 }
 .background_effect {
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  background: rgb(218, 218, 218);
+  background: linear-gradient(to top, rgba(0, 0, 0, 0.8), transparent);
+}
+.background_effect {
   width: 100%;
   height: 100%;
   display: flex;
