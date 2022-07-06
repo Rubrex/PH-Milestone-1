@@ -145,6 +145,15 @@ body {
   border: none;
   border-bottom: 2px solid rgb(66, 66, 66);
   color: rgb(66, 66, 66);
+  outline: none;
+  font-size: 20px;
+  font-weight: 700;
+  color: #383838;
+}
+.custom_donate input:focus {
+  border: none;
+  border-bottom: 2px solid rgb(250, 79, 79);
+  color: #ff5252;
 }
 .small_btn {
   width: 180px;
