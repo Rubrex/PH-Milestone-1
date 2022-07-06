@@ -230,7 +230,27 @@ body {
   align-items: center;
 }
 
-.subscrive_input_container {
+.input_button_container {
+  display: flex;
+}
+.input_button_container input {
+  border: none;
+  height: 45px;
+  width: 300px;
+  text-align: center;
+  transform: translateX(5px);
+  border-radius: 5px;
+  z-index: 1;
+  outline: none;
+  font-size: 20px;
+}
+.input_button_container input:focus {
+  border: none;
+  color: #ff5252;
+}
+.input_button_container button {
+  z-index: 10;
+  border-radius: 0 5px 5px 0;
 }
 
 /* =================================Footer================================  */
