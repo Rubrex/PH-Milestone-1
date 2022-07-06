@@ -220,14 +220,14 @@ p {
 }
 /* =================================Get Updates================================  */
 .get_updates {
-  width: 90%;
-  margin: 0 auto;
+  width: 100%;
   margin-top: 90px;
   margin-bottom: 80px;
   background-color: rgb(236, 236, 236);
   display: flex;
   flex-direction: column;
   align-items: center;
+  padding-bottom: 60px;
 }
 
 .subscribe {
